@@ -22,3 +22,28 @@ h6 {
 p {
   margin: 0;
 }
+
+/*NAVBAR- */
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+
+#navBar h1 {
+  width: 70%;
+  font-weight: 500;
+}
+
+#navigation {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#navigation p {
+  cursor: pointer;
+  text-decoration: underline;
+}
