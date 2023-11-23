@@ -126,10 +126,10 @@ nav {
 /* HERO BANNER*/
 
 .hero-banner {
-  padding-top: 9rem;
   display: grid;
+  padding-top: 9rem;
   grid-template-columns: 1fr 1fr;
-  max-width: 850px;
+  max-width: 50%;
   justify-content: space-between;
 }
 
@@ -312,9 +312,8 @@ img {
   align-items: center;
 }
 
-.contact img:hover{
- border: 1px solid var(--light);
-
+.contact img:hover {
+  border: 1px solid var(--light);
 }
 
 .contact:hover {
@@ -333,66 +332,58 @@ img {
     grid-template-areas:
       "horiseon horiseon"
       "horiseon horiseon"
-      "tba1 tba2 tba3"
-    
+      "tba1 tba2 tba3";
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .owner,
+  .hero-left,
+  .logos .icon {
+    display: none;
   }
 
-  @media screen and (max-width: 991px) {
-   
-    .owner{
-      display: none;
-    }
-
-    .navLinks{
-      width: 100%;
-      justify-content:center;
-
-    }
+  .navLinks,
+  .hero-banner {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
   }
-
+}
 
 @media screen and (max-width: 768px) {
-
-  h1{
+  h1 {
     font-size: 36px;
   }
 
-  h2{
+  h2 {
     font-size: 30px;
   }
 
-  h3{
+  h3 {
     font-size: 22px;
   }
 
-  .hero-banner{
-    width: 50%;
-    grid-template-columns: 1fr;
-    justify-content:center;
-
-  }
-
-  .hero-left{
+  .hero-left {
     width: 50%;
     margin: 0 auto;
   }
 
-  .hero-right{
+  .hero-right {
     width: 50%;
     margin: 0 auto;
   }
 
-  .about{
+  .about {
     grid-template-columns: 1fr;
     justify-content: center;
     text-align: center;
   }
 
-  .about-right p{
+  .about-right p {
     text-align: center;
     margin-left: auto;
     margin-left: 15%;
-   
   }
 
   #resume-container {
