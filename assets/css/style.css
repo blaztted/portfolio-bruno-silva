@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-  font-size: 12px;
+  font-size: 20px;
   color: var(--black);
 }
 
@@ -126,10 +126,7 @@ nav {
 /* HERO BANNER*/
 
 .hero-banner {
-  padding-top: 10rem;
-}
-
-.subtitle {
+  padding-top: 9rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 850px;
@@ -138,12 +135,13 @@ nav {
 
 .hero-left {
   position: relative;
-  left: 40%;
+  left: 25%;
 }
 
 img {
   width: 100%;
-  height: 400px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .icon {
@@ -301,10 +299,10 @@ img {
   justify-content: space-between;
   gap: 3rem;
   align-items: center;
-  max-width: 50rem;
+  max-width: 40rem;
   border: 3px solid var(--dark);
-  padding: 20px;
-  border-radius: 50px;
+  padding: 10px;
+  border-radius: 40px;
 }
 
 .email,
