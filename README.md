@@ -2,7 +2,7 @@
 
 ## The Repository
 
-This repository is where I code my [Portfolio](https://github.com/blaztted/portfolio-bruno-silva/) in order to showcase my skills and projects to potential employers or clients.
+This repository is where I code my portfolio [Portfolio](https://github.com/blaztted/portfolio-bruno-silva/) in order to showcase my skills and projects to potential employers or clients.
 
 ## Portfolio
 

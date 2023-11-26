@@ -242,20 +242,20 @@ img {
 
 #horiseon {
   grid-area: horiseon;
-  background-image: url("/images/horieson2.jpg");
+  background-image: url("../../images/horieson2.jpg");
 }
 
 #tba1 {
   grid-area: tba1;
-  background-image: url("/images/02-portfolio-2.jpg");
+  background-image: url("../../images/02-portfolio-2.jpg");
 }
 #tba2 {
   grid-area: tba2;
-  background-image: url("/images/02-portfolio-1.jpg");
+  background-image: url("../../images/02-portfolio-1.jpg");
 }
 #tba3 {
   grid-area: tba3;
-  background-image: url("/images/02-portfolio-3.jpg");
+  background-image: url("../../images/02-portfolio-3.jpg");
 }
 
 .project {
